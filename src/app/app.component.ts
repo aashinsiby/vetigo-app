@@ -4,6 +4,7 @@ import { RouterOutlet } from '@angular/router';
 import { SignupComponent } from './signup/signup.component';
 import { initializeApp } from "firebase/app";
 import { getAnalytics } from "firebase/analytics";
+
 @Component({
   selector: 'app-root',
   standalone: true,
