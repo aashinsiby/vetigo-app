@@ -1,0 +1,28 @@
+body {
+ background-image: url("/src/assets/login/bg.png");
+ background-size:100%;
+ background-repeat:no-repeat;
+ display: flex;
+ align-items: center;
+ justify-content: center; /* Optional for horizontal centering */
+ height: 100vh; /* Ensure body takes full height */
+ margin: 0; /* Remove default margin */
+}
+
+#img{
+
+transition: transform 0.3s ease-in-out;
+
+}
+#img:hover{
+ transform: scale(1.1);
+
+}
+@media (max-width: 768px) {
+ body {
+  background-image: url('/category/BG.png');
+  
+   /* Other styles for smaller screens */
+ }
+ 
+}
